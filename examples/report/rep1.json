@@ -1,0 +1,14 @@
+{"resourceType": "DiagnosticReport",
+   
+    "status": "final",
+    "result": [
+    {"reference": "Observation/findingID****"}],
+    "conclusionCode": [{"coding": [
+      {"system": "https://icd.codes/icd10cm",
+       "code": "R91.8",
+       "display": "Lung mass"},
+      {"system": "https://radiopaedia.org/articles/lung-rads",
+       "code": "4A",
+       "display": "Category 4A (Probably suspicious, 5-15% chance of malignancy)"
+    }]}]}
+    

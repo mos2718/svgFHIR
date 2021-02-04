@@ -1,0 +1,27 @@
+ {
+      "resourceType": "ServiceRequest",
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "363679005",
+          "display": "Imaging"
+        } ]
+      } ],
+      "priority": "stat",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "24725-4",
+          "display": "CT Head"
+        } ]
+      },
+      "quantityQuantity": {
+        "value": 1
+      },
+      "encounter": {
+        "reference": "Encounter/****"
+      },
+      "authoredOn": "2020-10-10T08:00:00+08:00"
+    }

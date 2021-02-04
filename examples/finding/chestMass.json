@@ -1,0 +1,28 @@
+{"resourceType": "Observation",
+ 
+ "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/observation-category",
+      "code": "imaging"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "https://www.dicom.org.tw/cs/medcalImage",
+      "code": "SVG_Annotation"
+    } ]
+  },
+ "derivedFrom": [{"reference": "Observation/FHIR_SVG_Annotation_id_123"}],
+ "component": [ 
+{"code": {"coding": [{"system": "https://www.dicom.org.tw/cs/medcalImage",
+ "code": "chest_left"}]}}, 
+{"code": {"coding": [{"system": "https://www.dicom.org.tw/cs/medcalImage",
+ "code": "left_lower_lobe"}]}}, 
+{"code": {"coding": [{"system": "https://www.dicom.org.tw/cs/medcalImage",
+"code": "internal_lobe"}]}},
+{"code": {"coding": [{"system": "https://www.dicom.org.tw/cs/medcalImage",
+"code": "central"}]}},
+{"code": {"coding": [{"system": "https://www.dicom.org.tw/cs/medcalImage",
+"code": "thick_wall"}]}}  ]
+}

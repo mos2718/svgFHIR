@@ -1,0 +1,25 @@
+{
+ "resourceType": "Patient",
+ "id": "0e10d5a3-b12a-45bd-b1c6-52779e756636",
+ "identifier": [
+  {
+   "system": "https://www.dicom.org.tw/cs/identityCardNumber_tw",
+   "value": "A215243804"
+  }
+ ],
+ "active": true,
+ "name": [
+  {
+   "family": "林",
+   "given": [
+    "志玲"
+   ],
+   "text": "林志玲"
+  }
+ ],
+ "gender": "female",
+ "birthDate": "1998-09-16",
+ "managingOrganization": {
+  "reference": "Organization/MITW.ForIdentifier"
+ }
+}

@@ -1,0 +1,30 @@
+ {
+      "resourceType": "ServiceRequest",
+      "status": "active",
+      "intent": "order",
+      "category": [ {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "363679005",
+          "display": "Imaging"
+        } ]
+      } ],
+      "priority": "stat",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "36554-4",
+          "display": "XR Chest Single view"
+        } ]
+      },
+      "quantityQuantity": {
+        "value": 1
+      },
+      "subject": {
+       "reference": "Patient/ab123"
+      },
+      "encounter": {
+        "reference": "Encounter/1022"
+      },
+      "authoredOn": "2019-09-24T16:53:55+02:00"
+    }

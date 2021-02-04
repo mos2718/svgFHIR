@@ -1,0 +1,44 @@
+{
+  "resourceType": "Observation",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://hl7.org/fhir/observation-category",
+      "code": "imaging"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "https://www.dicom.org.tw/cs/medcalImage",
+      "code": "SVG_Annotation"
+    } ]
+  },
+  "component": [ {
+    "coding": [ {
+        "system": "https://www.dicom.org.tw/cs/medcalImage",
+        "code": "SVG_Annotation"
+      } ]
+    ,
+    "valueString": "PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CjxlbGxpcHNlIGN4PSIzNTUiIGN5PSIzMDAiCANVASHEIGHTJ4PSI1MCIgcnk9IjUwIiBzdHJva2U9InJlZCIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjwvc3ZnPg=="
+    },
+    {
+    "code": {
+      "coding": [ {
+        "system": "https://www.dicom.org.tw/medcalImage",
+        "code": "DICOM_Object"
+      } ]
+    },
+    "valueString": "https://victoriatjia.github.io/Guideline/medicalImaging/DCMfiles/CT_A.dcm"
+    }
+    ,
+    {
+    "code": {
+      "coding": [ {
+        "system": "https://www.dicom.org.tw/medcalImage",
+        "code": "Reference_image_SOP_Instance_UID"
+      } ]
+    },
+    "valueString": "2.16.885.12345.6789999"
+    }
+  ]
+}
